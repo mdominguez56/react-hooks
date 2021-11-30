@@ -1,13 +1,13 @@
 import "./App.css";
-import SidebarWithHeader from "./Components/Menu";
-import Carousel from "./Components/Carousel";
+import Home from "./Components/Home";
+import MainContent from "./Components/Carousel";
 
 function App() {
   return (
     <div className="App">
-      <SidebarWithHeader>
-        <Carousel />
-      </SidebarWithHeader>
+      <Home>
+        <MainContent />
+      </Home>
     </div>
   );
 }
