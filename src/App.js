@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./Components/Home";
-import MainContent from "./Components/Carousel";
+import MainContent from "./Components/MainContent";
 
 function App() {
   return (
