@@ -1,9 +1,15 @@
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Home from './componets/Home';
+import Header from './componets/Header';
 
 const App = () => {
   return (
     <div>
-      <h1>App</h1>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 };
